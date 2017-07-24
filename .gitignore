@@ -1,0 +1,6 @@
+.vagrant/
+box/*.box
+*.tmp
+
+work/*
+!work/php56-symfony/

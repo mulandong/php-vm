@@ -1,0 +1,1043 @@
+==> default:  apr-util                  x86_64   1.5.2-6.el7              base          92 k
+==> default:  fontconfig                x86_64   2.10.95-10.el7           base         229 k
+==> default:  fontpackages-filesystem   noarch   1.44-8.el7               base         9.9 k
+==> default:  gd-last                   x86_64   2.2.4-1.el7.remi         remi         131 k
+==> default:  hiredis-last              x86_64   0.13.3-1.el7.remi        remi          30 k
+==> default:  httpd                     x86_64   2.4.6-45.el7.centos.4    updates      2.7 M
+==> default:  httpd-tools               x86_64   2.4.6-45.el7.centos.4    updates       84 k
+==> default:  jbigkit-libs              x86_64   2.0-11.el7               base          46 k
+==> default:  libX11                    x86_64   1.6.3-3.el7              base         606 k
+==> default:  libX11-common             noarch   1.6.3-3.el7              base         162 k
+==> default:  libXau                    x86_64   1.0.8-2.1.el7            base          29 k
+==> default:  libXpm                    x86_64   3.5.11-3.el7             base          54 k
+==> default:  libicu                    x86_64   50.1.2-15.el7            base         6.9 M
+==> default:  libjpeg-turbo             x86_64   1.2.90-5.el7             base         134 k
+==> default:  libmcrypt                 x86_64   2.5.8-13.el7             epel          99 k
+==> default:  libnghttp2                x86_64   1.21.1-1.el7             epel          66 k
+==> default:  libpng                    x86_64   2:1.5.13-7.el7_2         base         213 k
+==> default:  libtiff                   x86_64   4.0.3-27.el7_3           updates      170 k
+==> default:  libtool-ltdl              x86_64   2.4.2-22.el7_3           updates       49 k
+==> default:  libwebp                   x86_64   0.3.0-3.el7              base         170 k
+==> default:  libxcb                    x86_64   1.11-4.el7               base         189 k
+==> default:  libxslt                   x86_64   1.1.28-5.el7             base         242 k
+==> default:  libzip5                   x86_64   1.2.0-1.el7.remi         remi          56 k
+==> default:  mailcap                   noarch   2.1.41-2.el7             base          31 k
+==> default:  php-cli                   x86_64   5.6.30-1.el7.remi        remi-php56   4.0 M
+==> default:  php-common                x86_64   5.6.30-1.el7.remi        remi-php56   1.1 M
+==> default:  php-pdo                   x86_64   5.6.30-1.el7.remi        remi-php56   138 k
+==> default:  php-pecl-igbinary         x86_64   2.0.4-1.el7.remi.5.6     remi-php56    51 k
+==> default:  php-pecl-jsonc            x86_64   1.3.10-2.el7.remi.5.6    remi-php56    57 k
+==> default:  php-pecl-zip              x86_64   1.14.0-1.el7.remi.5.6    remi-php56    56 k
+==> default:  php-process               x86_64   5.6.30-1.el7.remi        remi-php56    75 k
+==> default:  t1lib                     x86_64   5.1.2-14.el7             base         166 k
+==> default:
+==> default: Transaction Summary
+==> default: ================================================================================
+==> default: Install  17 Packages (+33 Dependent packages)
+==> default: Total download size: 26 M
+==> default: Installed size: 90 M
+==> default: Downloading packages:
+==> default: Public key for gd-last-2.2.4-1.el7.remi.x86_64.rpm is not installed
+==> default: warning: /var/cache/yum/x86_64/7/remi/packages/gd-last-2.2.4-1.el7.remi.x86_64.rpm: Header V4 DSA/SHA1 Signature, key ID 00f97f56: NOKEY
+==> default: Public key for php-bcmath-5.6.30-1.el7.remi.x86_64.rpm is not installed
+==> default: --------------------------------------------------------------------------------
+==> default: Total                                              6.6 MB/s |  26 MB  00:03
+==> default: Retrieving key from file:///etc/pki/rpm-gpg/RPM-GPG-KEY-remi
+==> default: Importing GPG key 0x00F97F56:
+==> default:  Userid     : "Remi Collet <RPMS@FamilleCollet.com>"
+==> default:  Fingerprint: 1ee0 4cce 88a4 ae4a a29a 5df5 004e 6f47 00f9 7f56
+==> default:  Package    : remi-release-7.3-1.el7.remi.noarch (installed)
+==> default:  From       : /etc/pki/rpm-gpg/RPM-GPG-KEY-remi
+==> default: Running transaction check
+==> default: Running transaction test
+==> default: Transaction test succeeded
+==> default: Running transaction
+==> default:   Installing : apr-1.4.8-3.el7.x86_64                                      1/50
+==> default:
+==> default:   Installing : libjpeg-turbo-1.2.90-5.el7.x86_64                           2/50
+==> default:
+==> default:   Installing : apr-util-1.5.2-6.el7.x86_64                                 3/50
+==> default:
+==> default:   Installing : 2:libpng-1.5.13-7.el7_2.x86_64                              4/50
+==> default:
+==> default:   Installing : httpd-tools-2.4.6-45.el7.centos.4.x86_64                    5/50
+==> default:
+==> default:   Installing : libwebp-0.3.0-3.el7.x86_64                                  6/50
+==> default:
+==> default:   Installing : libnghttp2-1.21.1-1.el7.x86_64                              7/50
+==> default:
+==> default:   Installing : libX11-common-1.6.3-3.el7.noarch                            8/50
+==> default:
+==> default:   Installing : libicu-50.1.2-15.el7.x86_64                                 9/50
+==> default:
+==> default:   Installing : libXau-1.0.8-2.1.el7.x86_64                                10/50
+==> default:
+==> default:   Installing : libxcb-1.11-4.el7.x86_64                                   11/50
+==> default:
+==> default:   Installing : libX11-1.6.3-3.el7.x86_64                                  12/50
+==> default:
+==> default:   Installing : libXpm-3.5.11-3.el7.x86_64                                 13/50
+==> default:
+==> default:   Installing : t1lib-5.1.2-14.el7.x86_64                                  14/50
+==> default:
+==> default:   Installing : jbigkit-libs-2.0-11.el7.x86_64                             15/50
+==> default:
+==> default:   Installing : libtiff-4.0.3-27.el7_3.x86_64                              16/50
+==> default:
+==> default:   Installing : libxslt-1.1.28-5.el7.x86_64                                17/50
+==> default:
+==> default:   Installing : libtool-ltdl-2.4.2-22.el7_3.x86_64                         18/50
+==> default:
+==> default:   Installing : fontpackages-filesystem-1.44-8.el7.noarch                  19/50
+==> default:
+==> default:   Installing : fontconfig-2.10.95-10.el7.x86_64                           20/50
+==> default:
+==> default:   Installing : gd-last-2.2.4-1.el7.remi.x86_64                            21/50
+==> default:
+==> default:   Installing : libmcrypt-2.5.8-13.el7.x86_64                              22/50
+==> default:
+==> default:   Installing : mailcap-2.1.41-2.el7.noarch                                23/50
+==> default:
+==> default:   Installing : httpd-2.4.6-45.el7.centos.4.x86_64                         24/50
+==> default:
+==> default:   Installing : libzip5-1.2.0-1.el7.remi.x86_64                            25/50
+==> default:
+==> default:   Installing : php-pecl-jsonc-1.3.10-2.el7.remi.5.6.x86_64                26/50
+==> default:
+==> default:
+==> default: WARNING : These php-* RPMs are not official Fedora / Red Hat build and
+==> default: overrides the official ones. Don't file bugs on Fedora Project nor Red Hat.
+==> default:
+==> default: Use dedicated forum at http://forum.remirepo.net/
+==> default:   Installing : php-common-5.6.30-1.el7.remi.x86_64                        27/50
+==> default:
+==> default:   Installing : php-pecl-zip-1.14.0-1.el7.remi.5.6.x86_64                  28/50
+==> default:
+==> default:   Installing : php-cli-5.6.30-1.el7.remi.x86_64                           29/50
+==> default:
+==> default:   Installing : php-pdo-5.6.30-1.el7.remi.x86_64                           30/50
+==> default:
+==> default:   Installing : php-mysqlnd-5.6.30-1.el7.remi.x86_64                       31/50
+==> default:
+==> default:   Installing : php-process-5.6.30-1.el7.remi.x86_64                       32/50
+==> default:
+==> default:   Installing : php-xml-5.6.30-1.el7.remi.x86_64                           33/50
+==> default:
+==> default:   Installing : php-pecl-igbinary-2.0.4-1.el7.remi.5.6.x86_64              34/50
+==> default:
+==> default:   Installing : hiredis-last-0.13.3-1.el7.remi.x86_64                      35/50
+==> default:
+==> default:   Installing : php-pecl-swoole2-2.0.7-2.el7.remi.5.6.x86_64               36/50
+==> default:
+==> default:   Installing : php-pecl-redis-3.1.2-1.el7.remi.5.6.x86_64                 37/50
+==> default:
+==> default:   Installing : 1:php-pear-1.10.4-2.el7.remi.noarch                        38/50
+==> default:
+==> default:   Installing : php-5.6.30-1.el7.remi.x86_64                               39/50
+==> default:
+==> default:   Installing : php-pecl-apcu-4.0.11-2.el7.remi.5.6.x86_64                 40/50
+==> default:
+==> default:   Installing : php-gd-5.6.30-1.el7.remi.x86_64                            41/50
+==> default:
+==> default:   Installing : php-opcache-5.6.30-1.el7.remi.x86_64                       42/50
+==> default:
+==> default:   Installing : php-pecl-ssh2-0.13-3.el7.remi.5.6.x86_64                   43/50
+==> default:
+==> default:   Installing : php-soap-5.6.30-1.el7.remi.x86_64                          44/50
+==> default:
+==> default:   Installing : php-intl-5.6.30-1.el7.remi.x86_64                          45/50
+==> default:
+==> default:   Installing : php-bcmath-5.6.30-1.el7.remi.x86_64                        46/50
+==> default:
+==> default:   Installing : php-fpm-5.6.30-1.el7.remi.x86_64                           47/50
+==> default:
+==> default:   Installing : php-mcrypt-5.6.30-1.el7.remi.x86_64                        48/50
+==> default:
+==> default:   Installing : php-pecl-xdebug-2.5.4-1.el7.remi.5.6.x86_64                49/50
+==> default:
+==> default:   Installing : php-mbstring-5.6.30-1.el7.remi.x86_64                      50/50
+==> default:
+==> default:   Verifying  : php-pdo-5.6.30-1.el7.remi.x86_64                            1/50
+==> default:
+==> default:   Verifying  : libtiff-4.0.3-27.el7_3.x86_64                               2/50
+==> default:
+==> default:   Verifying  : hiredis-last-0.13.3-1.el7.remi.x86_64                       3/50
+==> default:
+==> default:   Verifying  : php-process-5.6.30-1.el7.remi.x86_64                        4/50
+==> default:
+==> default:   Verifying  : libzip5-1.2.0-1.el7.remi.x86_64                             5/50
+==> default:
+==> default:   Verifying  : libjpeg-turbo-1.2.90-5.el7.x86_64                           6/50
+==> default:
+==> default:   Verifying  : mailcap-2.1.41-2.el7.noarch                                 7/50
+==> default:
+==> default:   Verifying  : php-pecl-apcu-4.0.11-2.el7.remi.5.6.x86_64                  8/50
+==> default:
+==> default:   Verifying  : php-mysqlnd-5.6.30-1.el7.remi.x86_64                        9/50
+==> default:
+==> default:   Verifying  : php-5.6.30-1.el7.remi.x86_64                               10/50
+==> default:
+==> default:   Verifying  : php-gd-5.6.30-1.el7.remi.x86_64                            11/50
+==> default:
+==> default:   Verifying  : libxcb-1.11-4.el7.x86_64                                   12/50
+==> default:
+==> default:   Verifying  : 2:libpng-1.5.13-7.el7_2.x86_64                             13/50
+==> default:
+==> default:   Verifying  : php-pecl-zip-1.14.0-1.el7.remi.5.6.x86_64                  14/50
+==> default:
+==> default:   Verifying  : httpd-tools-2.4.6-45.el7.centos.4.x86_64                   15/50
+==> default:
+==> default:   Verifying  : libmcrypt-2.5.8-13.el7.x86_64                              16/50
+==> default:
+==> default:   Verifying  : php-pecl-jsonc-1.3.10-2.el7.remi.5.6.x86_64                17/50
+==> default:
+==> default:   Verifying  : fontpackages-filesystem-1.44-8.el7.noarch                  18/50
+==> default:
+==> default:   Verifying  : php-opcache-5.6.30-1.el7.remi.x86_64                       19/50
+==> default:
+==> default:   Verifying  : libX11-1.6.3-3.el7.x86_64                                  20/50
+==> default:
+==> default:   Verifying  : apr-1.4.8-3.el7.x86_64                                     21/50
+==> default:
+==> default:   Verifying  : php-pecl-ssh2-0.13-3.el7.remi.5.6.x86_64                   22/50
+==> default:
+==> default:   Verifying  : libtool-ltdl-2.4.2-22.el7_3.x86_64                         23/50
+==> default:
+==> default:   Verifying  : php-pecl-redis-3.1.2-1.el7.remi.5.6.x86_64                 24/50
+==> default:
+==> default:   Verifying  : php-soap-5.6.30-1.el7.remi.x86_64                          25/50
+==> default:
+==> default:   Verifying  : php-pecl-swoole2-2.0.7-2.el7.remi.5.6.x86_64               26/50
+==> default:
+==> default:   Verifying  : t1lib-5.1.2-14.el7.x86_64                                  27/50
+==> default:
+==> default:   Verifying  : php-xml-5.6.30-1.el7.remi.x86_64                           28/50
+==> default:
+==> default:   Verifying  : gd-last-2.2.4-1.el7.remi.x86_64                            29/50
+==> default:
+==> default:   Verifying  : libxslt-1.1.28-5.el7.x86_64                                30/50
+==> default:
+==> default:   Verifying  : libXpm-3.5.11-3.el7.x86_64                                 31/50
+==> default:
+==> default:   Verifying  : apr-util-1.5.2-6.el7.x86_64                                32/50
+==> default:
+==> default:   Verifying  : php-intl-5.6.30-1.el7.remi.x86_64                          33/50
+==> default:
+==> default:   Verifying  : jbigkit-libs-2.0-11.el7.x86_64                             34/50
+==> default:
+==> default:   Verifying  : httpd-2.4.6-45.el7.centos.4.x86_64                         35/50
+==> default:
+==> default:   Verifying  : php-bcmath-5.6.30-1.el7.remi.x86_64                        36/50
+==> default:
+==> default:   Verifying  : php-fpm-5.6.30-1.el7.remi.x86_64                           37/50
+==> default:
+==> default:   Verifying  : libXau-1.0.8-2.1.el7.x86_64                                38/50
+==> default:
+==> default:   Verifying  : libicu-50.1.2-15.el7.x86_64                                39/50
+==> default:
+==> default:   Verifying  : php-mcrypt-5.6.30-1.el7.remi.x86_64                        40/50
+==> default:
+==> default:   Verifying  : php-cli-5.6.30-1.el7.remi.x86_64                           41/50
+==> default:
+==> default:   Verifying  : php-pecl-xdebug-2.5.4-1.el7.remi.5.6.x86_64                42/50
+==> default:
+==> default:   Verifying  : libX11-common-1.6.3-3.el7.noarch                           43/50
+==> default:
+==> default:   Verifying  : php-common-5.6.30-1.el7.remi.x86_64                        44/50
+==> default:
+==> default:   Verifying  : libnghttp2-1.21.1-1.el7.x86_64                             45/50
+==> default:
+==> default:   Verifying  : fontconfig-2.10.95-10.el7.x86_64                           46/50
+==> default:
+==> default:   Verifying  : php-mbstring-5.6.30-1.el7.remi.x86_64                      47/50
+==> default:
+==> default:   Verifying  : php-pecl-igbinary-2.0.4-1.el7.remi.5.6.x86_64              48/50
+==> default:
+==> default:   Verifying  : libwebp-0.3.0-3.el7.x86_64                                 49/50
+==> default:
+==> default:   Verifying  : 1:php-pear-1.10.4-2.el7.remi.noarch                        50/50
+==> default:
+==> default:
+==> default: Installed:
+==> default:   php.x86_64 0:5.6.30-1.el7.remi
+==> default:   php-bcmath.x86_64 0:5.6.30-1.el7.remi
+==> default:   php-fpm.x86_64 0:5.6.30-1.el7.remi
+==> default:   php-gd.x86_64 0:5.6.30-1.el7.remi
+==> default:   php-intl.x86_64 0:5.6.30-1.el7.remi
+==> default:   php-mbstring.x86_64 0:5.6.30-1.el7.remi
+==> default:   php-mcrypt.x86_64 0:5.6.30-1.el7.remi
+==> default:   php-mysqlnd.x86_64 0:5.6.30-1.el7.remi
+==> default:   php-opcache.x86_64 0:5.6.30-1.el7.remi
+==> default:   php-pear.noarch 1:1.10.4-2.el7.remi
+==> default:   php-pecl-apcu.x86_64 0:4.0.11-2.el7.remi.5.6
+==> default:   php-pecl-redis.x86_64 0:3.1.2-1.el7.remi.5.6
+==> default:   php-pecl-ssh2.x86_64 0:0.13-3.el7.remi.5.6
+==> default:   php-pecl-swoole2.x86_64 0:2.0.7-2.el7.remi.5.6
+==> default:   php-pecl-xdebug.x86_64 0:2.5.4-1.el7.remi.5.6
+==> default:   php-soap.x86_64 0:5.6.30-1.el7.remi
+==> default:   php-xml.x86_64 0:5.6.30-1.el7.remi
+==> default:
+==> default: Dependency Installed:
+==> default:   apr.x86_64 0:1.4.8-3.el7
+==> default:   apr-util.x86_64 0:1.5.2-6.el7
+==> default:   fontconfig.x86_64 0:2.10.95-10.el7
+==> default:   fontpackages-filesystem.noarch 0:1.44-8.el7
+==> default:   gd-last.x86_64 0:2.2.4-1.el7.remi
+==> default:   hiredis-last.x86_64 0:0.13.3-1.el7.remi
+==> default:   httpd.x86_64 0:2.4.6-45.el7.centos.4
+==> default:   httpd-tools.x86_64 0:2.4.6-45.el7.centos.4
+==> default:   jbigkit-libs.x86_64 0:2.0-11.el7
+==> default:   libX11.x86_64 0:1.6.3-3.el7
+==> default:   libX11-common.noarch 0:1.6.3-3.el7
+==> default:   libXau.x86_64 0:1.0.8-2.1.el7
+==> default:   libXpm.x86_64 0:3.5.11-3.el7
+==> default:   libicu.x86_64 0:50.1.2-15.el7
+==> default:   libjpeg-turbo.x86_64 0:1.2.90-5.el7
+==> default:   libmcrypt.x86_64 0:2.5.8-13.el7
+==> default:   libnghttp2.x86_64 0:1.21.1-1.el7
+==> default:   libpng.x86_64 2:1.5.13-7.el7_2
+==> default:   libtiff.x86_64 0:4.0.3-27.el7_3
+==> default:   libtool-ltdl.x86_64 0:2.4.2-22.el7_3
+==> default:   libwebp.x86_64 0:0.3.0-3.el7
+==> default:   libxcb.x86_64 0:1.11-4.el7
+==> default:   libxslt.x86_64 0:1.1.28-5.el7
+==> default:   libzip5.x86_64 0:1.2.0-1.el7.remi
+==> default:   mailcap.noarch 0:2.1.41-2.el7
+==> default:   php-cli.x86_64 0:5.6.30-1.el7.remi
+==> default:   php-common.x86_64 0:5.6.30-1.el7.remi
+==> default:   php-pdo.x86_64 0:5.6.30-1.el7.remi
+==> default:   php-pecl-igbinary.x86_64 0:2.0.4-1.el7.remi.5.6
+==> default:   php-pecl-jsonc.x86_64 0:1.3.10-2.el7.remi.5.6
+==> default:   php-pecl-zip.x86_64 0:1.14.0-1.el7.remi.5.6
+==> default:   php-process.x86_64 0:5.6.30-1.el7.remi
+==> default:   t1lib.x86_64 0:5.1.2-14.el7
+==> default: Complete!
+==> default: Created symlink from /etc/systemd/system/multi-user.target.wants/php-fpm.service to /usr/lib/systemd/system/php-fpm.service.
+==> default: ======Install mysql======
+==> default: Loaded plugins: fastestmirror
+==> default: Loading mirror speeds from cached hostfile
+==> default:  * base: mirrors.btte.net
+==> default:  * epel: mirrors.tuna.tsinghua.edu.cn
+==> default:  * extras: mirrors.btte.net
+==> default:  * remi: mirrors.tuna.tsinghua.edu.cn
+==> default:  * remi-php56: mirrors.tuna.tsinghua.edu.cn
+==> default:  * remi-safe: mirrors.tuna.tsinghua.edu.cn
+==> default:  * updates: mirrors.tuna.tsinghua.edu.cn
+==> default: Resolving Dependencies
+==> default: --> Running transaction check
+==> default: ---> Package mysql-community-server.x86_64 0:5.7.18-1.el7 will be installed
+==> default: --> Processing Dependency: mysql-community-common(x86-64) = 5.7.18-1.el7 for package: mysql-community-server-5.7.18-1.el7.x86_64
+==> default: --> Processing Dependency: mysql-community-client(x86-64) >= 5.7.9 for package: mysql-community-server-5.7.18-1.el7.x86_64
+==> default: --> Processing Dependency: net-tools for package: mysql-community-server-5.7.18-1.el7.x86_64
+==> default: --> Running transaction check
+==> default: ---> Package mysql-community-client.x86_64 0:5.7.18-1.el7 will be installed
+==> default: --> Processing Dependency: mysql-community-libs(x86-64) >= 5.7.9 for package: mysql-community-client-5.7.18-1.el7.x86_64
+==> default: ---> Package mysql-community-common.x86_64 0:5.7.18-1.el7 will be installed
+==> default: ---> Package net-tools.x86_64 0:2.0-0.17.20131004git.el7 will be installed
+==> default: --> Running transaction check
+==> default: ---> Package mariadb-libs.x86_64 1:5.5.44-2.el7.centos will be obsoleted
+==> default: --> Processing Dependency: libmysqlclient.so.18()(64bit) for package: 2:postfix-2.10.1-6.el7.x86_64
+==> default: --> Processing Dependency: libmysqlclient.so.18(libmysqlclient_18)(64bit) for package: 2:postfix-2.10.1-6.el7.x86_64
+==> default: ---> Package mysql-community-libs.x86_64 0:5.7.18-1.el7 will be obsoleting
+==> default: --> Running transaction check
+==> default: ---> Package mysql-community-libs-compat.x86_64 0:5.7.18-1.el7 will be obsoleting
+==> default: --> Finished Dependency Resolution
+==> default:
+==> default: Dependencies Resolved
+==> default:
+==> default: ================================================================================
+==> default:  Package                Arch   Version                  Repository         Size
+==> default: ================================================================================
+==> default: Installing:
+==> default:  mysql-community-libs   x86_64 5.7.18-1.el7             mysql57-community 2.1 M
+==> default:      replacing  mariadb-libs.x86_64 1:5.5.44-2.el7.centos
+==> default:  mysql-community-libs-compat
+==> default:                         x86_64 5.7.18-1.el7             mysql57-community 2.0 M
+==> default:      replacing  mariadb-libs.x86_64 1:5.5.44-2.el7.centos
+==> default:  mysql-community-server x86_64 5.7.18-1.el7             mysql57-community 162 M
+==> default: Installing for dependencies:
+==> default:  mysql-community-client x86_64 5.7.18-1.el7             mysql57-community  24 M
+==> default:  mysql-community-common x86_64 5.7.18-1.el7             mysql57-community 271 k
+==> default:  net-tools              x86_64 2.0-0.17.20131004git.el7 base              304 k
+==> default:
+==> default: Transaction Summary
+==> default: ================================================================================
+==> default: Install  3 Packages (+3 Dependent packages)
+==> default:
+==> default: Total size: 190 M
+==> default: Total download size: 186 M
+==> default: Downloading packages:
+==> default: --------------------------------------------------------------------------------
+==> default: Total                                              2.2 MB/s | 186 MB  01:22
+==> default: Running transaction check
+==> default: Running transaction test
+==> default: Transaction test succeeded
+==> default: Running transaction
+==> default:   Installing : mysql-community-common-5.7.18-1.el7.x86_64                   1/7
+==> default:
+==> default:   Installing : mysql-community-libs-5.7.18-1.el7.x86_64                     2/7
+==> default:
+==> default:   Installing : mysql-community-client-5.7.18-1.el7.x86_64                   3/7
+==> default:
+==> default:   Installing : net-tools-2.0-0.17.20131004git.el7.x86_64                    4/7
+==> default:
+==> default:   Installing : mysql-community-server-5.7.18-1.el7.x86_64                   5/7
+==> default:
+==> default:   Installing : mysql-community-libs-compat-5.7.18-1.el7.x86_64              6/7
+==> default:
+==> default:   Erasing    : 1:mariadb-libs-5.5.44-2.el7.centos.x86_64                    7/7
+==> default:
+==> default:   Verifying  : mysql-community-server-5.7.18-1.el7.x86_64                   1/7
+==> default:
+==> default:   Verifying  : mysql-community-common-5.7.18-1.el7.x86_64                   2/7
+==> default:
+==> default:   Verifying  : net-tools-2.0-0.17.20131004git.el7.x86_64                    3/7
+==> default:
+==> default:   Verifying  : mysql-community-client-5.7.18-1.el7.x86_64                   4/7
+==> default:
+==> default:   Verifying  : mysql-community-libs-compat-5.7.18-1.el7.x86_64              5/7
+==> default:
+==> default:   Verifying  : mysql-community-libs-5.7.18-1.el7.x86_64                     6/7
+==> default:
+==> default:   Verifying  : 1:mariadb-libs-5.5.44-2.el7.centos.x86_64                    7/7
+==> default:
+==> default:
+==> default: Installed:
+==> default:   mysql-community-libs.x86_64 0:5.7.18-1.el7
+==> default:   mysql-community-libs-compat.x86_64 0:5.7.18-1.el7
+==> default:   mysql-community-server.x86_64 0:5.7.18-1.el7
+==> default:
+==> default: Dependency Installed:
+==> default:   mysql-community-client.x86_64 0:5.7.18-1.el7
+==> default:   mysql-community-common.x86_64 0:5.7.18-1.el7
+==> default:   net-tools.x86_64 0:2.0-0.17.20131004git.el7
+==> default:
+==> default: Replaced:
+==> default:   mariadb-libs.x86_64 1:5.5.44-2.el7.centos
+==> default: Complete!
+==> default: ======Install nginx======
+==> default: Loaded plugins: fastestmirror
+==> default: Loading mirror speeds from cached hostfile
+==> default:  * base: mirrors.btte.net
+==> default:  * epel: mirrors.tuna.tsinghua.edu.cn
+==> default:  * extras: mirrors.btte.net
+==> default:  * remi: mirrors.tuna.tsinghua.edu.cn
+==> default:  * remi-php56: mirrors.tuna.tsinghua.edu.cn
+==> default:  * remi-safe: mirrors.tuna.tsinghua.edu.cn
+==> default:  * updates: mirrors.tuna.tsinghua.edu.cn
+==> default: Resolving Dependencies
+==> default: --> Running transaction check
+==> default: ---> Package nginx.x86_64 1:1.10.2-1.el7 will be installed
+==> default: --> Processing Dependency: nginx-filesystem = 1:1.10.2-1.el7 for package: 1:nginx-1.10.2-1.el7.x86_64
+==> default: --> Processing Dependency: nginx-all-modules = 1:1.10.2-1.el7 for package: 1:nginx-1.10.2-1.el7.x86_64
+==> default: --> Processing Dependency: nginx-filesystem for package: 1:nginx-1.10.2-1.el7.x86_64
+==> default: --> Processing Dependency: libprofiler.so.0()(64bit) for package: 1:nginx-1.10.2-1.el7.x86_64
+==> default: --> Running transaction check
+==> default: ---> Package gperftools-libs.x86_64 0:2.4-8.el7 will be installed
+==> default: --> Processing Dependency: libunwind.so.8()(64bit) for package: gperftools-libs-2.4-8.el7.x86_64
+==> default: ---> Package nginx-all-modules.noarch 1:1.10.2-1.el7 will be installed
+==> default: --> Processing Dependency: nginx-mod-stream = 1:1.10.2-1.el7 for package: 1:nginx-all-modules-1.10.2-1.el7.noarch
+==> default: --> Processing Dependency: nginx-mod-mail = 1:1.10.2-1.el7 for package: 1:nginx-all-modules-1.10.2-1.el7.noarch
+==> default: --> Processing Dependency: nginx-mod-http-xslt-filter = 1:1.10.2-1.el7 for package: 1:nginx-all-modules-1.10.2-1.el7.noarch
+==> default: --> Processing Dependency: nginx-mod-http-perl = 1:1.10.2-1.el7 for package: 1:nginx-all-modules-1.10.2-1.el7.noarch
+==> default: --> Processing Dependency: nginx-mod-http-image-filter = 1:1.10.2-1.el7 for package: 1:nginx-all-modules-1.10.2-1.el7.noarch
+==> default: --> Processing Dependency: nginx-mod-http-geoip = 1:1.10.2-1.el7 for package: 1:nginx-all-modules-1.10.2-1.el7.noarch
+==> default: ---> Package nginx-filesystem.noarch 1:1.10.2-1.el7 will be installed
+==> default: --> Running transaction check
+==> default: ---> Package libunwind.x86_64 2:1.1-5.el7_2.2 will be installed
+==> default: ---> Package nginx-mod-http-geoip.x86_64 1:1.10.2-1.el7 will be installed
+==> default: --> Processing Dependency: GeoIP for package: 1:nginx-mod-http-geoip-1.10.2-1.el7.x86_64
+==> default: --> Processing Dependency: libGeoIP.so.1()(64bit) for package: 1:nginx-mod-http-geoip-1.10.2-1.el7.x86_64
+==> default: ---> Package nginx-mod-http-image-filter.x86_64 1:1.10.2-1.el7 will be installed
+==> default: --> Processing Dependency: gd for package: 1:nginx-mod-http-image-filter-1.10.2-1.el7.x86_64
+==> default: --> Processing Dependency: libgd.so.2()(64bit) for package: 1:nginx-mod-http-image-filter-1.10.2-1.el7.x86_64
+==> default: ---> Package nginx-mod-http-perl.x86_64 1:1.10.2-1.el7 will be installed
+==> default: ---> Package nginx-mod-http-xslt-filter.x86_64 1:1.10.2-1.el7 will be installed
+==> default: ---> Package nginx-mod-mail.x86_64 1:1.10.2-1.el7 will be installed
+==> default: ---> Package nginx-mod-stream.x86_64 1:1.10.2-1.el7 will be installed
+==> default: --> Running transaction check
+==> default: ---> Package GeoIP.x86_64 0:1.5.0-11.el7 will be installed
+==> default: ---> Package gd.x86_64 0:2.0.35-26.el7 will be installed
+==> default: --> Finished Dependency Resolution
+==> default:
+==> default: Dependencies Resolved
+==> default:
+==> default: ================================================================================
+==> default:  Package                         Arch       Version              Repository
+==> default:                                                                            Size
+==> default: ================================================================================
+==> default: Installing:
+==> default:  nginx                           x86_64     1:1.10.2-1.el7       epel     505 k
+==> default: Installing for dependencies:
+==> default:  GeoIP                           x86_64     1.5.0-11.el7         base     1.1 M
+==> default:  gd                              x86_64     2.0.35-26.el7        base     146 k
+==> default:  gperftools-libs                 x86_64     2.4-8.el7            base     272 k
+==> default:  libunwind                       x86_64     2:1.1-5.el7_2.2      base      56 k
+==> default:  nginx-all-modules               noarch     1:1.10.2-1.el7       epel      16 k
+==> default:  nginx-filesystem                noarch     1:1.10.2-1.el7       epel      17 k
+==> default:  nginx-mod-http-geoip            x86_64     1:1.10.2-1.el7       epel      23 k
+==> default:  nginx-mod-http-image-filter     x86_64     1:1.10.2-1.el7       epel      26 k
+==> default:  nginx-mod-http-perl             x86_64     1:1.10.2-1.el7       epel      35 k
+==> default:  nginx-mod-http-xslt-filter      x86_64     1:1.10.2-1.el7       epel      25 k
+==> default:  nginx-mod-mail                  x86_64     1:1.10.2-1.el7       epel      53 k
+==> default:  nginx-mod-stream                x86_64     1:1.10.2-1.el7       epel      46 k
+==> default:
+==> default: Transaction Summary
+==> default: ================================================================================
+==> default: Install  1 Package (+12 Dependent packages)
+==> default:
+==> default: Total size: 2.2 M
+==> default: Total download size: 1.2 M
+==> default: Installed size: 6.5 M
+==> default: Downloading packages:
+==> default: --------------------------------------------------------------------------------
+==> default: Total                                              1.8 MB/s | 1.2 MB  00:00
+==> default: Running transaction check
+==> default: Running transaction test
+==> default: Transaction test succeeded
+==> default: Running transaction
+==> default:   Installing : 2:libunwind-1.1-5.el7_2.2.x86_64                            1/13
+==> default:
+==> default:   Installing : gperftools-libs-2.4-8.el7.x86_64                            2/13
+==> default:
+==> default:   Installing : 1:nginx-filesystem-1.10.2-1.el7.noarch                      3/13
+==> default:
+==> default:   Installing : gd-2.0.35-26.el7.x86_64                                     4/13
+==> default:
+==> default:   Installing : GeoIP-1.5.0-11.el7.x86_64                                   5/13
+==> default:
+==> default:   Installing : 1:nginx-mod-http-perl-1.10.2-1.el7.x86_64                   6/13
+==> default:
+==> default:   Installing : 1:nginx-mod-mail-1.10.2-1.el7.x86_64                        7/13
+==> default:
+==> default:   Installing : 1:nginx-mod-http-geoip-1.10.2-1.el7.x86_64                  8/13
+==> default:
+==> default:   Installing : 1:nginx-mod-http-image-filter-1.10.2-1.el7.x86_64           9/13
+==> default:
+==> default:   Installing : 1:nginx-mod-stream-1.10.2-1.el7.x86_64                     10/13
+==> default:
+==> default:   Installing : 1:nginx-1.10.2-1.el7.x86_64                                11/13
+==> default:
+==> default:   Installing : 1:nginx-mod-http-xslt-filter-1.10.2-1.el7.x86_64           12/13
+==> default:
+==> default:   Installing : 1:nginx-all-modules-1.10.2-1.el7.noarch                    13/13
+==> default:
+==> default:   Verifying  : 1:nginx-mod-http-xslt-filter-1.10.2-1.el7.x86_64            1/13
+==> default:
+==> default:   Verifying  : 1:nginx-mod-http-perl-1.10.2-1.el7.x86_64                   2/13
+==> default:
+==> default:   Verifying  : 1:nginx-mod-mail-1.10.2-1.el7.x86_64                        3/13
+==> default:
+==> default:   Verifying  : gperftools-libs-2.4-8.el7.x86_64                            4/13
+==> default:
+==> default:   Verifying  : GeoIP-1.5.0-11.el7.x86_64                                   5/13
+==> default:
+==> default:   Verifying  : 1:nginx-mod-http-geoip-1.10.2-1.el7.x86_64                  6/13
+==> default:
+==> default:   Verifying  : 1:nginx-mod-http-image-filter-1.10.2-1.el7.x86_64           7/13
+==> default:
+==> default:   Verifying  : 1:nginx-mod-stream-1.10.2-1.el7.x86_64                      8/13
+==> default:
+==> default:   Verifying  : 1:nginx-all-modules-1.10.2-1.el7.noarch                     9/13
+==> default:
+==> default:   Verifying  : gd-2.0.35-26.el7.x86_64                                    10/13
+==> default:
+==> default:   Verifying  : 1:nginx-1.10.2-1.el7.x86_64                                11/13
+==> default:
+==> default:   Verifying  : 1:nginx-filesystem-1.10.2-1.el7.noarch                     12/13
+==> default:
+==> default:   Verifying  : 2:libunwind-1.1-5.el7_2.2.x86_64                           13/13
+==> default:
+==> default:
+==> default: Installed:
+==> default:   nginx.x86_64 1:1.10.2-1.el7
+==> default:
+==> default: Dependency Installed:
+==> default:   GeoIP.x86_64 0:1.5.0-11.el7
+==> default:   gd.x86_64 0:2.0.35-26.el7
+==> default:   gperftools-libs.x86_64 0:2.4-8.el7
+==> default:   libunwind.x86_64 2:1.1-5.el7_2.2
+==> default:   nginx-all-modules.noarch 1:1.10.2-1.el7
+==> default:   nginx-filesystem.noarch 1:1.10.2-1.el7
+==> default:   nginx-mod-http-geoip.x86_64 1:1.10.2-1.el7
+==> default:   nginx-mod-http-image-filter.x86_64 1:1.10.2-1.el7
+==> default:   nginx-mod-http-perl.x86_64 1:1.10.2-1.el7
+==> default:   nginx-mod-http-xslt-filter.x86_64 1:1.10.2-1.el7
+==> default:   nginx-mod-mail.x86_64 1:1.10.2-1.el7
+==> default:   nginx-mod-stream.x86_64 1:1.10.2-1.el7
+==> default: Complete!
+==> default: Created symlink from /etc/systemd/system/multi-user.target.wants/nginx.service to /usr/lib/systemd/system/nginx.service.
+==> default: Loaded plugins: fastestmirror
+==> default: Loading mirror speeds from cached hostfile
+==> default:  * base: mirrors.btte.net
+==> default:  * epel: mirrors.tuna.tsinghua.edu.cn
+==> default:  * extras: mirrors.btte.net
+==> default:  * remi: mirrors.tuna.tsinghua.edu.cn
+==> default:  * remi-php56: mirrors.tuna.tsinghua.edu.cn
+==> default:  * remi-safe: mirrors.tuna.tsinghua.edu.cn
+==> default:  * updates: mirrors.tuna.tsinghua.edu.cn
+==> default: Resolving Dependencies
+==> default: --> Running transaction check
+==> default: ---> Package composer.noarch 0:1.4.2-2.el7.remi will be installed
+==> default: --> Processing Dependency: php-composer(symfony/process) < 4 for package: composer-1.4.2-2.el7.remi.noarch
+==> default: --> Processing Dependency: php-composer(symfony/finder) < 4 for package: composer-1.4.2-2.el7.remi.noarch
+==> default: --> Processing Dependency: php-composer(symfony/filesystem) < 4 for package: composer-1.4.2-2.el7.remi.noarch
+==> default: --> Processing Dependency: php-composer(symfony/console) < 4 for package: composer-1.4.2-2.el7.remi.noarch
+==> default: --> Processing Dependency: php-composer(seld/phar-utils) < 2 for package: composer-1.4.2-2.el7.remi.noarch
+==> default: --> Processing Dependency: php-composer(seld/jsonlint) < 2 for package: composer-1.4.2-2.el7.remi.noarch
+==> default: --> Processing Dependency: php-composer(seld/cli-prompt) < 2 for package: composer-1.4.2-2.el7.remi.noarch
+==> default: --> Processing Dependency: php-composer(psr/log) < 2 for package: composer-1.4.2-2.el7.remi.noarch
+==> default: --> Processing Dependency: php-composer(composer/spdx-licenses) < 2 for package: composer-1.4.2-2.el7.remi.noarch
+==> default: --> Processing Dependency: php-composer(composer/semver) < 2 for package: composer-1.4.2-2.el7.remi.noarch
+==> default: --> Processing Dependency: php-composer(composer/ca-bundle) < 2 for package: composer-1.4.2-2.el7.remi.noarch
+==> default: --> Processing Dependency: php-seld-phar-utils >= 1.0.1 for package: composer-1.4.2-2.el7.remi.noarch
+==> default: --> Processing Dependency: php-seld-cli-prompt >= 1.0.0-3 for package: composer-1.4.2-2.el7.remi.noarch
+==> default: --> Processing Dependency: php-composer(symfony/process) >= 2.7 for package: composer-1.4.2-2.el7.remi.noarch
+==> default: --> Processing Dependency: php-composer(symfony/finder) >= 2.7 for package: composer-1.4.2-2.el7.remi.noarch
+==> default: --> Processing Dependency: php-composer(symfony/filesystem) >= 2.7 for package: composer-1.4.2-2.el7.remi.noarch
+==> default: --> Processing Dependency: php-composer(symfony/console) >= 2.7 for package: composer-1.4.2-2.el7.remi.noarch
+==> default: --> Processing Dependency: php-composer(seld/phar-utils) >= 1.0 for package: composer-1.4.2-2.el7.remi.noarch
+==> default: --> Processing Dependency: php-composer(seld/jsonlint) >= 1.4 for package: composer-1.4.2-2.el7.remi.noarch
+==> default: --> Processing Dependency: php-composer(seld/cli-prompt) >= 1.0 for package: composer-1.4.2-2.el7.remi.noarch
+==> default: --> Processing Dependency: php-composer(psr/log) >= 1.0 for package: composer-1.4.2-2.el7.remi.noarch
+==> default: --> Processing Dependency: php-composer(composer/spdx-licenses) >= 1.0 for package: composer-1.4.2-2.el7.remi.noarch
+==> default: --> Processing Dependency: php-composer(composer/semver) >= 1.0 for package: composer-1.4.2-2.el7.remi.noarch
+==> default: --> Processing Dependency: php-composer(composer/ca-bundle) >= 1.0 for package: composer-1.4.2-2.el7.remi.noarch
+==> default: --> Processing Dependency: php-PsrLog >= 1.0.0-8 for package: composer-1.4.2-2.el7.remi.noarch
+==> default: --> Processing Dependency: php-justinrainbow-json-schema5 for package: composer-1.4.2-2.el7.remi.noarch
+==> default: --> Processing Dependency: php-composer(fedora/autoloader) for package: composer-1.4.2-2.el7.remi.noarch
+==> default: --> Running transaction check
+==> default: ---> Package php-PsrLog.noarch 0:1.0.2-2.el7.remi will be installed
+==> default: ---> Package php-composer-ca-bundle.noarch 0:1.0.7-1.el7.remi will be installed
+==> default: ---> Package php-composer-semver.noarch 0:1.4.2-2.el7.remi will be installed
+==> default: ---> Package php-composer-spdx-licenses.noarch 0:1.1.6-1.el7.remi will be installed
+==> default: ---> Package php-fedora-autoloader.noarch 0:1.0.0-1.el7.remi will be installed
+==> default: ---> Package php-jsonlint.noarch 0:1.6.0-1.el7.remi will be installed
+==> default: ---> Package php-justinrainbow-json-schema5.noarch 0:5.2.1-1.el7.remi will be installed
+==> default: ---> Package php-seld-cli-prompt.noarch 0:1.0.3-1.el7.remi will be installed
+==> default: ---> Package php-seld-phar-utils.noarch 0:1.0.1-2.el7.remi will be installed
+==> default: ---> Package php-symfony3-console.noarch 0:3.2.9-1.el7.remi will be installed
+==> default: --> Processing Dependency: php-composer(symfony/debug) = 3.2.9 for package: php-symfony3-console-3.2.9-1.el7.remi.noarch
+==> default: ---> Package php-symfony3-filesystem.noarch 0:3.2.9-1.el7.remi will be installed
+==> default: --> Processing Dependency: php-symfony3-common = 3.2.9-1.el7.remi for package: php-symfony3-filesystem-3.2.9-1.el7.remi.noarch
+==> default: ---> Package php-symfony3-finder.noarch 0:3.2.9-1.el7.remi will be installed
+==> default: ---> Package php-symfony3-process.noarch 0:3.2.9-1.el7.remi will be installed
+==> default: --> Running transaction check
+==> default: ---> Package php-symfony3-common.noarch 0:3.2.9-1.el7.remi will be installed
+==> default: ---> Package php-symfony3-debug.noarch 0:3.2.9-1.el7.remi will be installed
+==> default: --> Finished Dependency Resolution
+==> default:
+==> default: Dependencies Resolved
+==> default:
+==> default: ================================================================================
+==> default:  Package                           Arch      Version              Repository
+==> default:                                                                            Size
+==> default: ================================================================================
+==> default: Installing:
+==> default:  composer                          noarch    1.4.2-2.el7.remi     remi    369 k
+==> default: Installing for dependencies:
+==> default:  php-PsrLog                        noarch    1.0.2-2.el7.remi     remi     11 k
+==> default:  php-composer-ca-bundle            noarch    1.0.7-1.el7.remi     remi     11 k
+==> default:  php-composer-semver               noarch    1.4.2-2.el7.remi     remi     16 k
+==> default:  php-composer-spdx-licenses        noarch    1.1.6-1.el7.remi     remi     15 k
+==> default:  php-fedora-autoloader             noarch    1.0.0-1.el7.remi     remi    8.9 k
+==> default:  php-jsonlint                      noarch    1.6.0-1.el7.remi     remi     15 k
+==> default:  php-justinrainbow-json-schema5    noarch    5.2.1-1.el7.remi     remi     40 k
+==> default:  php-seld-cli-prompt               noarch    1.0.3-1.el7.remi     remi    7.6 k
+==> default:  php-seld-phar-utils               noarch    1.0.1-2.el7.remi     remi    6.8 k
+==> default:  php-symfony3-common               noarch    3.2.9-1.el7.remi     remi     75 k
+==> default:  php-symfony3-console              noarch    3.2.9-1.el7.remi     remi     77 k
+==> default:  php-symfony3-debug                noarch    3.2.9-1.el7.remi     remi     27 k
+==> default:  php-symfony3-filesystem           noarch    3.2.9-1.el7.remi     remi     15 k
+==> default:  php-symfony3-finder               noarch    3.2.9-1.el7.remi     remi     20 k
+==> default:  php-symfony3-process              noarch    3.2.9-1.el7.remi     remi     26 k
+==> default:
+==> default: Transaction Summary
+==> default: ================================================================================
+==> default: Install  1 Package (+15 Dependent packages)
+==> default: Total download size: 740 k
+==> default: Installed size: 2.9 M
+==> default: Downloading packages:
+==> default: --------------------------------------------------------------------------------
+==> default: Total                                              1.0 MB/s | 740 kB  00:00
+==> default: Running transaction check
+==> default: Running transaction test
+==> default: Transaction test succeeded
+==> default: Running transaction
+==> default:   Installing : php-fedora-autoloader-1.0.0-1.el7.remi.noarch               1/16
+==> default:
+==> default:   Installing : php-symfony3-common-3.2.9-1.el7.remi.noarch                 2/16
+==> default:
+==> default:   Installing : php-PsrLog-1.0.2-2.el7.remi.noarch                          3/16
+==> default:
+==> default:   Installing : php-symfony3-debug-3.2.9-1.el7.remi.noarch                  4/16
+==> default:
+==> default:   Installing : php-symfony3-console-3.2.9-1.el7.remi.noarch                5/16
+==> default:
+==> default:   Installing : php-symfony3-process-3.2.9-1.el7.remi.noarch                6/16
+==> default:
+==> default:   Installing : php-symfony3-filesystem-3.2.9-1.el7.remi.noarch             7/16
+==> default:
+==> default:   Installing : php-symfony3-finder-3.2.9-1.el7.remi.noarch                 8/16
+==> default:
+==> default:   Installing : php-seld-cli-prompt-1.0.3-1.el7.remi.noarch                 9/16
+==> default:
+==> default:   Installing : php-composer-ca-bundle-1.0.7-1.el7.remi.noarch             10/16
+==> default:
+==> default:   Installing : php-composer-spdx-licenses-1.1.6-1.el7.remi.noarch         11/16
+==> default:
+==> default:   Installing : php-seld-phar-utils-1.0.1-2.el7.remi.noarch                12/16
+==> default:
+==> default:   Installing : php-jsonlint-1.6.0-1.el7.remi.noarch                       13/16
+==> default:
+==> default:   Installing : php-justinrainbow-json-schema5-5.2.1-1.el7.remi.noarch     14/16
+==> default:
+==> default:   Installing : php-composer-semver-1.4.2-2.el7.remi.noarch                15/16
+==> default:
+==> default:   Installing : composer-1.4.2-2.el7.remi.noarch                           16/16
+==> default:
+==> default:   Verifying  : php-fedora-autoloader-1.0.0-1.el7.remi.noarch               1/16
+==> default:
+==> default:   Verifying  : php-seld-cli-prompt-1.0.3-1.el7.remi.noarch                 2/16
+==> default:
+==> default:   Verifying  : php-symfony3-console-3.2.9-1.el7.remi.noarch                3/16
+==> default:
+==> default:   Verifying  : php-symfony3-process-3.2.9-1.el7.remi.noarch                4/16
+==> default:
+==> default:   Verifying  : php-composer-ca-bundle-1.0.7-1.el7.remi.noarch              5/16
+==> default:
+==> default:   Verifying  : php-PsrLog-1.0.2-2.el7.remi.noarch                          6/16
+==> default:
+==> default:   Verifying  : php-symfony3-debug-3.2.9-1.el7.remi.noarch                  7/16
+==> default:
+==> default:   Verifying  : php-composer-spdx-licenses-1.1.6-1.el7.remi.noarch          8/16
+==> default:
+==> default:   Verifying  : php-seld-phar-utils-1.0.1-2.el7.remi.noarch                 9/16
+==> default:
+==> default:   Verifying  : php-symfony3-filesystem-3.2.9-1.el7.remi.noarch            10/16
+==> default:
+==> default:   Verifying  : php-jsonlint-1.6.0-1.el7.remi.noarch                       11/16
+==> default:
+==> default:   Verifying  : php-symfony3-common-3.2.9-1.el7.remi.noarch                12/16
+==> default:
+==> default:   Verifying  : php-symfony3-finder-3.2.9-1.el7.remi.noarch                13/16
+==> default:
+==> default:   Verifying  : composer-1.4.2-2.el7.remi.noarch                           14/16
+==> default:
+==> default:   Verifying  : php-justinrainbow-json-schema5-5.2.1-1.el7.remi.noarch     15/16
+==> default:
+==> default:   Verifying  : php-composer-semver-1.4.2-2.el7.remi.noarch                16/16
+==> default:
+==> default:
+==> default: Installed:
+==> default:   composer.noarch 0:1.4.2-2.el7.remi
+==> default:
+==> default: Dependency Installed:
+==> default:   php-PsrLog.noarch 0:1.0.2-2.el7.remi
+==> default:   php-composer-ca-bundle.noarch 0:1.0.7-1.el7.remi
+==> default:   php-composer-semver.noarch 0:1.4.2-2.el7.remi
+==> default:   php-composer-spdx-licenses.noarch 0:1.1.6-1.el7.remi
+==> default:   php-fedora-autoloader.noarch 0:1.0.0-1.el7.remi
+==> default:   php-jsonlint.noarch 0:1.6.0-1.el7.remi
+==> default:   php-justinrainbow-json-schema5.noarch 0:5.2.1-1.el7.remi
+==> default:   php-seld-cli-prompt.noarch 0:1.0.3-1.el7.remi
+==> default:   php-seld-phar-utils.noarch 0:1.0.1-2.el7.remi
+==> default:   php-symfony3-common.noarch 0:3.2.9-1.el7.remi
+==> default:   php-symfony3-console.noarch 0:3.2.9-1.el7.remi
+==> default:   php-symfony3-debug.noarch 0:3.2.9-1.el7.remi
+==> default:   php-symfony3-filesystem.noarch 0:3.2.9-1.el7.remi
+==> default:   php-symfony3-finder.noarch 0:3.2.9-1.el7.remi
+==> default:   php-symfony3-process.noarch 0:3.2.9-1.el7.remi
+==> default: Complete!
+==> default: Loaded plugins: fastestmirror
+==> default: Loading mirror speeds from cached hostfile
+==> default:  * base: mirrors.btte.net
+==> default:  * epel: mirrors.tuna.tsinghua.edu.cn
+==> default:  * extras: mirrors.btte.net
+==> default:  * remi: mirrors.tuna.tsinghua.edu.cn
+==> default:  * remi-php56: mirrors.tuna.tsinghua.edu.cn
+==> default:  * remi-safe: mirrors.tuna.tsinghua.edu.cn
+==> default:  * updates: mirrors.tuna.tsinghua.edu.cn
+==> default: Resolving Dependencies
+==> default: --> Running transaction check
+==> default: ---> Package php-phpunit-PHPUnit.noarch 0:5.7.20-1.el7.remi will be installed
+==> default: --> Processing Dependency: php-composer(symfony/yaml) < 3 for package: php-phpunit-PHPUnit-5.7.20-1.el7.remi.noarch
+==> default: --> Processing Dependency: php-composer(sebastian/version) < 3 for package: php-phpunit-PHPUnit-5.7.20-1.el7.remi.noarch
+==> default: --> Processing Dependency: php-composer(sebastian/resource-operations) < 2 for package: php-phpunit-PHPUnit-5.7.20-1.el7.remi.noarch
+==> default: --> Processing Dependency: php-composer(sebastian/recursion-context) < 3 for package: php-phpunit-PHPUnit-5.7.20-1.el7.remi.noarch
+==> default: --> Processing Dependency: php-composer(sebastian/object-enumerator) < 3 for package: php-phpunit-PHPUnit-5.7.20-1.el7.remi.noarch
+==> default: --> Processing Dependency: php-composer(sebastian/global-state) < 2 for package: php-phpunit-PHPUnit-5.7.20-1.el7.remi.noarch
+==> default: --> Processing Dependency: php-composer(sebastian/exporter) < 3 for package: php-phpunit-PHPUnit-5.7.20-1.el7.remi.noarch
+==> default: --> Processing Dependency: php-composer(sebastian/environment) < 3 for package: php-phpunit-PHPUnit-5.7.20-1.el7.remi.noarch
+==> default: --> Processing Dependency: php-composer(sebastian/diff) < 2 for package: php-phpunit-PHPUnit-5.7.20-1.el7.remi.noarch
+==> default: --> Processing Dependency: php-composer(sebastian/comparator) < 2 for package: php-phpunit-PHPUnit-5.7.20-1.el7.remi.noarch
+==> default: --> Processing Dependency: php-composer(phpunit/phpunit-mock-objects) < 4 for package: php-phpunit-PHPUnit-5.7.20-1.el7.remi.noarch
+==> default: --> Processing Dependency: php-composer(phpunit/php-timer) < 2 for package: php-phpunit-PHPUnit-5.7.20-1.el7.remi.noarch
+==> default: --> Processing Dependency: php-composer(phpunit/php-text-template) < 2 for package: php-phpunit-PHPUnit-5.7.20-1.el7.remi.noarch
+==> default: --> Processing Dependency: php-composer(phpunit/php-invoker) < 2 for package: php-phpunit-PHPUnit-5.7.20-1.el7.remi.noarch
+==> default: --> Processing Dependency: php-composer(phpunit/php-file-iterator) < 2 for package: php-phpunit-PHPUnit-5.7.20-1.el7.remi.noarch
+==> default: --> Processing Dependency: php-composer(phpunit/php-code-coverage) < 5 for package: php-phpunit-PHPUnit-5.7.20-1.el7.remi.noarch
+==> default: --> Processing Dependency: php-composer(phpspec/prophecy) < 2 for package: php-phpunit-PHPUnit-5.7.20-1.el7.remi.noarch
+==> default: --> Processing Dependency: php-composer(myclabs/deep-copy) < 2 for package: php-phpunit-PHPUnit-5.7.20-1.el7.remi.noarch
+==> default: --> Processing Dependency: php-composer(doctrine/instantiator) < 2 for package: php-phpunit-PHPUnit-5.7.20-1.el7.remi.noarch
+==> default: --> Processing Dependency: php-composer(symfony/yaml) >= 2.1 for package: php-phpunit-PHPUnit-5.7.20-1.el7.remi.noarch
+==> default: --> Processing Dependency: php-composer(sebastian/version) >= 1.0.3 for package: php-phpunit-PHPUnit-5.7.20-1.el7.remi.noarch
+==> default: --> Processing Dependency: php-composer(sebastian/resource-operations) >= 1.0 for package: php-phpunit-PHPUnit-5.7.20-1.el7.remi.noarch
+==> default: --> Processing Dependency: php-composer(sebastian/recursion-context) >= 2.0 for package: php-phpunit-PHPUnit-5.7.20-1.el7.remi.noarch
+==> default: --> Processing Dependency: php-composer(sebastian/object-enumerator) >= 2.0 for package: php-phpunit-PHPUnit-5.7.20-1.el7.remi.noarch
+==> default: --> Processing Dependency: php-composer(sebastian/global-state) >= 1.1 for package: php-phpunit-PHPUnit-5.7.20-1.el7.remi.noarch
+==> default: --> Processing Dependency: php-composer(sebastian/exporter) >= 2.0 for package: php-phpunit-PHPUnit-5.7.20-1.el7.remi.noarch
+==> default: --> Processing Dependency: php-composer(sebastian/environment) >= 1.3.4 for package: php-phpunit-PHPUnit-5.7.20-1.el7.remi.noarch
+==> default: --> Processing Dependency: php-composer(sebastian/diff) >= 1.4.3 for package: php-phpunit-PHPUnit-5.7.20-1.el7.remi.noarch
+==> default: --> Processing Dependency: php-composer(sebastian/comparator) >= 1.2.4 for package: php-phpunit-PHPUnit-5.7.20-1.el7.remi.noarch
+==> default: --> Processing Dependency: php-composer(phpunit/phpunit-mock-objects) >= 3.2 for package: php-phpunit-PHPUnit-5.7.20-1.el7.remi.noarch
+==> default: --> Processing Dependency: php-composer(phpunit/php-timer) >= 1.0.6 for package: php-phpunit-PHPUnit-5.7.20-1.el7.remi.noarch
+==> default: --> Processing Dependency: php-composer(phpunit/php-text-template) >= 1.2 for package: php-phpunit-PHPUnit-5.7.20-1.el7.remi.noarch
+==> default: --> Processing Dependency: php-composer(phpunit/php-invoker) >= 1.1 for package: php-phpunit-PHPUnit-5.7.20-1.el7.remi.noarch
+==> default: --> Processing Dependency: php-composer(phpunit/php-file-iterator) >= 1.4 for package: php-phpunit-PHPUnit-5.7.20-1.el7.remi.noarch
+==> default: --> Processing Dependency: php-composer(phpunit/php-code-coverage) >= 4.0.4 for package: php-phpunit-PHPUnit-5.7.20-1.el7.remi.noarch
+==> default: --> Processing Dependency: php-composer(phpspec/prophecy) >= 1.6.2 for package: php-phpunit-PHPUnit-5.7.20-1.el7.remi.noarch
+==> default: --> Processing Dependency: php-composer(myclabs/deep-copy) >= 1.3 for package: php-phpunit-PHPUnit-5.7.20-1.el7.remi.noarch
+==> default: --> Processing Dependency: php-composer(doctrine/instantiator) >= 1.0.4 for package: php-phpunit-PHPUnit-5.7.20-1.el7.remi.noarch
+==> default: --> Running transaction check
+==> default: ---> Package php-doctrine-instantiator.noarch 0:1.0.5-1.el7.remi will be installed
+==> default: ---> Package php-myclabs-deep-copy.noarch 0:1.6.1-1.el7.remi will be installed
+==> default: ---> Package php-phpspec-prophecy.noarch 0:1.7.0-4.el7.remi will be installed
+==> default: --> Processing Dependency: php-composer(phpdocumentor/reflection-docblock) < 4 for package: php-phpspec-prophecy-1.7.0-4.el7.remi.noarch
+==> default: --> Processing Dependency: php-composer(phpdocumentor/reflection-docblock) >= 2.0 for package: php-phpspec-prophecy-1.7.0-4.el7.remi.noarch
+==> default: ---> Package php-phpunit-File-Iterator.noarch 0:1.4.2-1.el7.remi will be installed
+==> default: ---> Package php-phpunit-PHP-CodeCoverage.noarch 0:4.0.8-1.el7.remi will be installed
+==> default: --> Processing Dependency: php-composer(sebastian/code-unit-reverse-lookup) < 2 for package: php-phpunit-PHP-CodeCoverage-4.0.8-1.el7.remi.noarch
+==> default: --> Processing Dependency: php-composer(phpunit/php-token-stream) < 3 for package: php-phpunit-PHP-CodeCoverage-4.0.8-1.el7.remi.noarch
+==> default: --> Processing Dependency: php-composer(sebastian/code-unit-reverse-lookup) >= 1 for package: php-phpunit-PHP-CodeCoverage-4.0.8-1.el7.remi.noarch
+==> default: --> Processing Dependency: php-composer(phpunit/php-token-stream) >= 1.4.2 for package: php-phpunit-PHP-CodeCoverage-4.0.8-1.el7.remi.noarch
+==> default: ---> Package php-phpunit-PHP-Invoker.noarch 0:1.1.4-1.el7.remi will be installed
+==> default: ---> Package php-phpunit-PHP-Timer.noarch 0:1.0.9-1.el7.remi will be installed
+==> default: ---> Package php-phpunit-PHPUnit-MockObject.noarch 0:3.4.3-1.el7.remi will be installed
+==> default: ---> Package php-phpunit-Text-Template.noarch 0:1.2.1-1.el7.remi will be installed
+==> default: ---> Package php-phpunit-Version.noarch 0:2.0.1-1.el7.remi will be installed
+==> default: ---> Package php-phpunit-comparator.noarch 0:1.2.4-1.el7.1 will be installed
+==> default: ---> Package php-phpunit-diff.noarch 0:1.4.3-1.el7.remi will be installed
+==> default: ---> Package php-phpunit-environment.noarch 0:2.0.0-1.el7.remi will be installed
+==> default: ---> Package php-phpunit-exporter.noarch 0:2.0.0-1.el7.remi will be installed
+==> default: ---> Package php-sebastian-global-state.noarch 0:1.1.1-1.el7.remi will be installed
+==> default: ---> Package php-sebastian-object-enumerator.noarch 0:2.0.1-1.el7.remi will be installed
+==> default: ---> Package php-sebastian-recursion-context.noarch 0:2.0.0-1.el7.remi will be installed
+==> default: ---> Package php-sebastian-resource-operations.noarch 0:1.0.0-2.el7.remi will be installed
+==> default: ---> Package php-symfony-yaml.noarch 0:2.8.22-1.el7.remi will be installed
+==> default: --> Processing Dependency: php-symfony-common = 2.8.22-1.el7.remi for package: php-symfony-yaml-2.8.22-1.el7.remi.noarch
+==> default: --> Running transaction check
+==> default: ---> Package php-phpdocumentor-reflection-docblock.noarch 0:3.1.1-1.el7.remi will be installed
+==> default: --> Processing Dependency: php-composer(webmozart/assert) < 2 for package: php-phpdocumentor-reflection-docblock-3.1.1-1.el7.remi.noarch
+==> default: --> Processing Dependency: php-composer(phpdocumentor/type-resolver) < 1 for package: php-phpdocumentor-reflection-docblock-3.1.1-1.el7.remi.noarch
+==> default: --> Processing Dependency: php-composer(phpdocumentor/reflection-common) < 2 for package: php-phpdocumentor-reflection-docblock-3.1.1-1.el7.remi.noarch
+==> default: --> Processing Dependency: php-composer(webmozart/assert) >= 1.0 for package: php-phpdocumentor-reflection-docblock-3.1.1-1.el7.remi.noarch
+==> default: --> Processing Dependency: php-composer(phpdocumentor/type-resolver) >= 0.2.0 for package: php-phpdocumentor-reflection-docblock-3.1.1-1.el7.remi.noarch
+==> default: --> Processing Dependency: php-composer(phpdocumentor/reflection-common) >= 1.0 for package: php-phpdocumentor-reflection-docblock-3.1.1-1.el7.remi.noarch
+==> default: ---> Package php-phpunit-PHP-TokenStream.noarch 0:1.4.11-1.el7.remi will be installed
+==> default: ---> Package php-sebastian-code-unit-reverse-lookup.noarch 0:1.0.1-1.el7.remi will be installed
+==> default: ---> Package php-symfony-common.noarch 0:2.8.22-1.el7.remi will be installed
+==> default: --> Processing Dependency: php-symfony-class-loader = 2.8.22-1.el7.remi for package: php-symfony-common-2.8.22-1.el7.remi.noarch
+==> default: --> Running transaction check
+==> default: ---> Package php-phpdocumentor-reflection-common.noarch 0:1.0-1.el7.remi will be installed
+==> default: ---> Package php-phpdocumentor-type-resolver.noarch 0:0.2.1-1.el7.remi will be installed
+==> default: ---> Package php-symfony-class-loader.noarch 0:2.8.22-1.el7.remi will be installed
+==> default: ---> Package php-webmozart-assert.noarch 0:1.2.0-1.el7.remi will be installed
+==> default: --> Finished Dependency Resolution
+==> default:
+==> default: Dependencies Resolved
+==> default:
+==> default: ================================================================================
+==> default:  Package                                 Arch    Version            Repository
+==> default:                                                                            Size
+==> default: ================================================================================
+==> default: Installing:
+==> default:  php-phpunit-PHPUnit                     noarch  5.7.20-1.el7.remi  remi  143 k
+==> default: Installing for dependencies:
+==> default:  php-doctrine-instantiator               noarch  1.0.5-1.el7.remi   remi   10 k
+==> default:  php-myclabs-deep-copy                   noarch  1.6.1-1.el7.remi   remi   15 k
+==> default:  php-phpdocumentor-reflection-common     noarch  1.0-1.el7.remi     remi  7.3 k
+==> default:  php-phpdocumentor-reflection-docblock   noarch  3.1.1-1.el7.remi   remi   30 k
+==> default:  php-phpdocumentor-type-resolver         noarch  0.2.1-1.el7.remi   remi   19 k
+==> default:  php-phpspec-prophecy                    noarch  1.7.0-4.el7.remi   remi   53 k
+==> default:  php-phpunit-File-Iterator               noarch  1.4.2-1.el7.remi   remi   12 k
+==> default:  php-phpunit-PHP-CodeCoverage            noarch  4.0.8-1.el7.remi   remi  315 k
+==> default:  php-phpunit-PHP-Invoker                 noarch  1.1.4-1.el7.remi   remi  7.9 k
+==> default:  php-phpunit-PHP-Timer                   noarch  1.0.9-1.el7.remi   remi  7.7 k
+==> default:  php-phpunit-PHP-TokenStream             noarch  1.4.11-1.el7.remi  remi   16 k
+==> default:  php-phpunit-PHPUnit-MockObject          noarch  3.4.3-1.el7.remi   remi   40 k
+==> default:  php-phpunit-Text-Template               noarch  1.2.1-1.el7.remi   remi  8.0 k
+==> default:  php-phpunit-Version                     noarch  2.0.1-1.el7.remi   remi  7.7 k
+==> default:  php-phpunit-comparator                  noarch  1.2.4-1.el7.1      epel   14 k
+==> default:  php-phpunit-diff                        noarch  1.4.3-1.el7.remi   remi   13 k
+==> default:  php-phpunit-environment                 noarch  2.0.0-1.el7.remi   remi  9.3 k
+==> default:  php-phpunit-exporter                    noarch  2.0.0-1.el7.remi   remi  9.7 k
+==> default:  php-sebastian-code-unit-reverse-lookup  noarch  1.0.1-1.el7.remi   remi  6.8 k
+==> default:  php-sebastian-global-state              noarch  1.1.1-1.el7.remi   remi  9.3 k
+==> default:  php-sebastian-object-enumerator         noarch  2.0.1-1.el7.remi   remi  7.1 k
+==> default:  php-sebastian-recursion-context         noarch  2.0.0-1.el7.remi   remi  7.4 k
+==> default:  php-sebastian-resource-operations       noarch  1.0.0-2.el7.remi   remi  9.3 k
+==> default:  php-symfony-class-loader                noarch  2.8.22-1.el7.remi  remi   26 k
+==> default:  php-symfony-common                      noarch  2.8.22-1.el7.remi  remi  133 k
+==> default:  php-symfony-yaml                        noarch  2.8.22-1.el7.remi  remi   29 k
+==> default:  php-webmozart-assert                    noarch  1.2.0-1.el7.remi   remi   12 k
+==> default:
+==> default: Transaction Summary
+==> default: ================================================================================
+==> default: Install  1 Package (+27 Dependent packages)
+==> default: Total download size: 976 k
+==> default: Installed size: 3.3 M
+==> default: Downloading packages:
+==> default: --------------------------------------------------------------------------------
+==> default: Total                                              938 kB/s | 976 kB  00:01
+==> default: Running transaction check
+==> default: Running transaction test
+==> default: Transaction test succeeded
+==> default: Running transaction
+==> default:   Installing : php-sebastian-recursion-context-2.0.0-1.el7.remi.noarch     1/28
+==> default:
+==> default:   Installing : php-phpunit-exporter-2.0.0-1.el7.remi.noarch                2/28
+==> default:
+==> default:   Installing : php-doctrine-instantiator-1.0.5-1.el7.remi.noarch           3/28
+==> default:
+==> default:   Installing : php-phpunit-Text-Template-1.2.1-1.el7.remi.noarch           4/28
+==> default:
+==> default:   Installing : php-symfony-class-loader-2.8.22-1.el7.remi.noarch           5/28
+==> default:
+==> default:   Installing : php-symfony-common-2.8.22-1.el7.remi.noarch                 6/28
+==> default:
+==> default:   Installing : php-phpunit-diff-1.4.3-1.el7.remi.noarch                    7/28
+==> default:
+==> default:   Installing : php-phpunit-comparator-1.2.4-1.el7.1.noarch                 8/28
+==> default:
+==> default:   Installing : php-phpunit-environment-2.0.0-1.el7.remi.noarch             9/28
+==> default:
+==> default:   Installing : php-phpunit-Version-2.0.1-1.el7.remi.noarch                10/28
+==> default:
+==> default:   Installing : php-phpunit-PHP-Timer-1.0.9-1.el7.remi.noarch              11/28
+==> default:
+==> default:   Installing : php-phpunit-File-Iterator-1.4.2-1.el7.remi.noarch          12/28
+==> default:
+==> default:   Installing : php-phpdocumentor-reflection-common-1.0-1.el7.remi.noarc   13/28
+==> default:
+==> default:   Installing : php-phpdocumentor-type-resolver-0.2.1-1.el7.remi.noarch    14/28
+==> default:
+==> default:   Installing : php-phpunit-PHP-Invoker-1.1.4-1.el7.remi.noarch            15/28
+==> default:
+==> default:   Installing : php-symfony-yaml-2.8.22-1.el7.remi.noarch                  16/28
+==> default:
+==> default:   Installing : php-phpunit-PHPUnit-MockObject-3.4.3-1.el7.remi.noarch     17/28
+==> default:
+==> default:   Installing : php-sebastian-object-enumerator-2.0.1-1.el7.remi.noarch    18/28
+==> default:
+==> default:   Installing : php-webmozart-assert-1.2.0-1.el7.remi.noarch               19/28
+==> default:
+==> default:   Installing : php-phpdocumentor-reflection-docblock-3.1.1-1.el7.remi.n   20/28
+==> default:
+==> default:   Installing : php-phpspec-prophecy-1.7.0-4.el7.remi.noarch               21/28
+==> default:
+==> default:   Installing : php-sebastian-resource-operations-1.0.0-2.el7.remi.noarc   22/28
+==> default:
+==> default:   Installing : php-phpunit-PHP-TokenStream-1.4.11-1.el7.remi.noarch       23/28
+==> default:
+==> default:   Installing : php-myclabs-deep-copy-1.6.1-1.el7.remi.noarch              24/28
+==> default:
+==> default:   Installing : php-sebastian-code-unit-reverse-lookup-1.0.1-1.el7.remi.   25/28
+==> default:
+==> default:   Installing : php-phpunit-PHP-CodeCoverage-4.0.8-1.el7.remi.noarch       26/28
+==> default:
+==> default:   Installing : php-sebastian-global-state-1.1.1-1.el7.remi.noarch         27/28
+==> default:
+==> default:   Installing : php-phpunit-PHPUnit-5.7.20-1.el7.remi.noarch               28/28
+==> default:
+==> default:   Verifying  : php-sebastian-global-state-1.1.1-1.el7.remi.noarch          1/28
+==> default:
+==> default:   Verifying  : php-phpdocumentor-reflection-common-1.0-1.el7.remi.noarc    2/28
+==> default:
+==> default:   Verifying  : php-sebastian-code-unit-reverse-lookup-1.0.1-1.el7.remi.    3/28
+==> default:
+==> default:   Verifying  : php-myclabs-deep-copy-1.6.1-1.el7.remi.noarch               4/28
+==> default:
+==> default:   Verifying  : php-phpunit-PHP-TokenStream-1.4.11-1.el7.remi.noarch        5/28
+==> default:
+==> default:   Verifying  : php-phpunit-PHP-Invoker-1.1.4-1.el7.remi.noarch             6/28
+==> default:
+==> default:   Verifying  : php-sebastian-resource-operations-1.0.0-2.el7.remi.noarc    7/28
+==> default:
+==> default:   Verifying  : php-symfony-yaml-2.8.22-1.el7.remi.noarch                   8/28
+==> default:
+==> default:   Verifying  : php-phpunit-File-Iterator-1.4.2-1.el7.remi.noarch           9/28
+==> default:
+==> default:   Verifying  : php-phpunit-PHP-Timer-1.0.9-1.el7.remi.noarch              10/28
+==> default:
+==> default:   Verifying  : php-phpunit-comparator-1.2.4-1.el7.1.noarch                11/28
+==> default:
+==> default:   Verifying  : php-phpunit-Text-Template-1.2.1-1.el7.remi.noarch          12/28
+==> default:
+==> default:   Verifying  : php-phpdocumentor-type-resolver-0.2.1-1.el7.remi.noarch    13/28
+==> default:
+==> default:   Verifying  : php-doctrine-instantiator-1.0.5-1.el7.remi.noarch          14/28
+==> default:
+==> default:   Verifying  : php-phpunit-Version-2.0.1-1.el7.remi.noarch                15/28
+==> default:
+==> default:   Verifying  : php-phpunit-exporter-2.0.0-1.el7.remi.noarch               16/28
+==> default:
+==> default:   Verifying  : php-symfony-common-2.8.22-1.el7.remi.noarch                17/28
+==> default:
+==> default:   Verifying  : php-phpunit-PHPUnit-MockObject-3.4.3-1.el7.remi.noarch     18/28
+==> default:
+==> default:   Verifying  : php-sebastian-recursion-context-2.0.0-1.el7.remi.noarch    19/28
+==> default:
+==> default:   Verifying  : php-symfony-class-loader-2.8.22-1.el7.remi.noarch          20/28
+==> default:
+==> default:   Verifying  : php-phpdocumentor-reflection-docblock-3.1.1-1.el7.remi.n   21/28
+==> default:
+==> default:   Verifying  : php-phpunit-environment-2.0.0-1.el7.remi.noarch            22/28
+==> default:
+==> default:   Verifying  : php-phpunit-PHP-CodeCoverage-4.0.8-1.el7.remi.noarch       23/28
+==> default:
+==> default:   Verifying  : php-phpspec-prophecy-1.7.0-4.el7.remi.noarch               24/28
+==> default:
+==> default:   Verifying  : php-phpunit-PHPUnit-5.7.20-1.el7.remi.noarch               25/28
+==> default:
+==> default:   Verifying  : php-phpunit-diff-1.4.3-1.el7.remi.noarch                   26/28
+==> default:
+==> default:   Verifying  : php-webmozart-assert-1.2.0-1.el7.remi.noarch               27/28
+==> default:
+==> default:   Verifying  : php-sebastian-object-enumerator-2.0.1-1.el7.remi.noarch    28/28
+==> default:
+==> default:
+==> default: Installed:
+==> default:   php-phpunit-PHPUnit.noarch 0:5.7.20-1.el7.remi
+==> default:
+==> default: Dependency Installed:
+==> default:   php-doctrine-instantiator.noarch 0:1.0.5-1.el7.remi
+==> default:   php-myclabs-deep-copy.noarch 0:1.6.1-1.el7.remi
+==> default:   php-phpdocumentor-reflection-common.noarch 0:1.0-1.el7.remi
+==> default:   php-phpdocumentor-reflection-docblock.noarch 0:3.1.1-1.el7.remi
+==> default:   php-phpdocumentor-type-resolver.noarch 0:0.2.1-1.el7.remi
+==> default:   php-phpspec-prophecy.noarch 0:1.7.0-4.el7.remi
+==> default:   php-phpunit-File-Iterator.noarch 0:1.4.2-1.el7.remi
+==> default:   php-phpunit-PHP-CodeCoverage.noarch 0:4.0.8-1.el7.remi
+==> default:   php-phpunit-PHP-Invoker.noarch 0:1.1.4-1.el7.remi
+==> default:   php-phpunit-PHP-Timer.noarch 0:1.0.9-1.el7.remi
+==> default:   php-phpunit-PHP-TokenStream.noarch 0:1.4.11-1.el7.remi
+==> default:   php-phpunit-PHPUnit-MockObject.noarch 0:3.4.3-1.el7.remi
+==> default:   php-phpunit-Text-Template.noarch 0:1.2.1-1.el7.remi
+==> default:   php-phpunit-Version.noarch 0:2.0.1-1.el7.remi
+==> default:   php-phpunit-comparator.noarch 0:1.2.4-1.el7.1
+==> default:   php-phpunit-diff.noarch 0:1.4.3-1.el7.remi
+==> default:   php-phpunit-environment.noarch 0:2.0.0-1.el7.remi
+==> default:   php-phpunit-exporter.noarch 0:2.0.0-1.el7.remi
+==> default:   php-sebastian-code-unit-reverse-lookup.noarch 0:1.0.1-1.el7.remi
+==> default:   php-sebastian-global-state.noarch 0:1.1.1-1.el7.remi
+==> default:   php-sebastian-object-enumerator.noarch 0:2.0.1-1.el7.remi
+==> default:   php-sebastian-recursion-context.noarch 0:2.0.0-1.el7.remi
+==> default:   php-sebastian-resource-operations.noarch 0:1.0.0-2.el7.remi
+==> default:   php-symfony-class-loader.noarch 0:2.8.22-1.el7.remi
+==> default:   php-symfony-common.noarch 0:2.8.22-1.el7.remi
+==> default:   php-symfony-yaml.noarch 0:2.8.22-1.el7.remi
+==> default:   php-webmozart-assert.noarch 0:1.2.0-1.el7.remi
+==> default: Complete!
+==> default: ===The initialized password of mysql root user===
+==> default: 2017-06-16T07:24:33.744471Z 1 [Note] A temporary password is generated for root@localhost: HXd)4xPXT0x-
