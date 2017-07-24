@@ -43,7 +43,3 @@ parameters:
     rethinkdb_db: lecar
     rethinkdb_user: null
     rethinkdb_password: null
-    aws_endpoint: 'https://los-cn-north-1.lecloudapis.com'
-    aws_credentials_key: r6C3vt6bLjVo3syeAmFN
-    aws_credentials_secret: qQeiiguSTekkwzznHWPgPWwHjYbkLptMCTHiDzgT
-    aws_bucket: lecarshare-test
